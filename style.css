@@ -1,0 +1,10 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 25px 75px 1fr;
+}
+
+div.sidebar {
+    grid-row: span 3;
+    background-color: #4ade80;
+}
